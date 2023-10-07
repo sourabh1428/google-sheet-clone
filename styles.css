@@ -1,72 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-#header, #cellBody {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: row;
-   width: 100%;
+table {
+    border-collapse: collapse;
 }
 
-#header b{
+th,
+td {
+    min-width: 80px;
+    border: 1px solid #333;
+    /* height: 10px; */
+}
 
-    width: 00px !important;
-    text-align: center;
-    padding: 10px 60px;
-    border: 1px solid rgb(180, 180, 180);
-    overflow-x: hidden;
+td {
+    outline: none;
+}table {
+    border-collapse: collapse;
 }
-#hero{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction:column;
-}
-.heroMain{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.nav_bar{
-    background-color: green;
-}
-.nav_bar ul{
-    list-style: none;
-    width: 100%;
-    display:flex;
-    gap: 20px;
-}
-.nav_bar li{
-    width: 100px;
-    height:100%;
 
-    text-align: center;
-    font-family:Roboto;
+th,
+td {
+    min-width: 80px;
+    border: 1px solid #333;
+    /* height: 10px; */
 }
-.funct{
-    width: 100%;
-    height: 100px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-}
-#getRC{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(254, 11, 11);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Roboto;
-}
-.funcE{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+td {
+    outline: none;
 }
